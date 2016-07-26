@@ -162,9 +162,9 @@ class Example extends CI_Controller
 		var_dump($idarray);
 		echo '</pre>';
 		exit;*/
-        $n = $this->certificates_model->deletearray($idarray);
+        $n = $this->example_model->deletearray($idarray);
         $this->_message_set($n . ' Records Have Been Successfully Deleted');
-        redirect(site_url('certificates'));
+        redirect(site_url('example'));
     }
 
     public function _message_get()

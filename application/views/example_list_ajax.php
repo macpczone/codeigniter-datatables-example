@@ -68,8 +68,6 @@
 		</p>
 
 		<p class="form-group">
-		   <b>Data submitted to the server:</b>
-		   </p><pre id="example-console"></pre>
 		<p></p>
 
 		</form>

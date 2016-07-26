@@ -61,7 +61,6 @@ class Example_model extends CI_Model
     function delete($id)
     {
         $row = $this->get_by_id($id);
-        unlink($this->certstore . $row->filename);
         $this->db->where($this->id, $id);
         $this->db->delete($this->table);
     }
