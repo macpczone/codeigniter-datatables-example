@@ -78,7 +78,7 @@ class Example extends CI_Controller
 	    );
 
             $this->example_model->insert($data);
-            $this->session->set_flashdata('message', 'Create Record Success');
+            $this->_message_set('Create Record Success');
             redirect(site_url('example'));
         }
     }
@@ -123,7 +123,7 @@ class Example extends CI_Controller
 	    );
 
             $this->example_model->update($this->input->post('id', TRUE), $data);
-            $this->session->set_flashdata('message', 'Update Record Success');
+            $this->_message_set('Update Record Success');
             redirect(site_url('example'));
         }
     }
@@ -134,10 +134,10 @@ class Example extends CI_Controller
 
         if ($row) {
             $this->example_model->delete($id);
-            $this->session->set_flashdata('message', 'Delete Record Success');
+            $this->_message_set('Delete Record Success');
             redirect(site_url('example'));
         } else {
-            $this->session->set_flashdata('message', 'Record Not Found');
+            $this->_message_set('Record Not Found');
             redirect(site_url('example'));
         }
     }
