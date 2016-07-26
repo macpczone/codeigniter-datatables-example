@@ -1,6 +1,6 @@
 #DataTable Library Example Application in Codeigniter 
 
-By default the library does not give any help for creating your own links or buttons on the rows, so I have patched it so that custom HTML can be added into each row, with the row id then being applied to any placeholders that are added. There is a sample database included in the resources directory with 100,000 rows, that you can import and use to test the performance. A larger database is also available for download from http://www.macpczone.co.uk/system/files/xxxxxxx which contains 10,000,000 rows, so that you can test with a more substantial amount of records.
+By default the library does not give any help for creating your own links or buttons on the rows, so I have patched it so that custom HTML can be added into each row, with the row id then being applied to any placeholders that are added. There is a sample database included in the resources directory with 100,000 rows, that you can import and use to test the performance. A larger database is also available for download from http://www.macpczone.co.uk/system/files/dtexample-10m.sql_.7z which contains 10,000,000 rows, so that you can test with a more substantial amount of records.
 
 This library requires **DataTables 1.10 >**
 

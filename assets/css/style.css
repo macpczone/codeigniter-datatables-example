@@ -140,4 +140,11 @@ table.dataTable thead th:first-child {
     width: 80%;
 }
 
-.t_score { text-align: right; }
+.t_age {
+	text-align: right;
+	width: 30px;		
+ }
+.t_postcode {
+	width: 80px;		
+ }
+  

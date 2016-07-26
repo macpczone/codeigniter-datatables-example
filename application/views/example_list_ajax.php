@@ -86,7 +86,7 @@
         			"dom": '<"top"if<"clear">lp>rt<"bottom"ip<"clear">f>',
 					processing: true,
 			        serverSide: true,
-					"lengthMenu": [10, 25, 50, 1000, 5000],
+					"lengthMenu": [5, 10, 25, 50, 1000, 5000],
 			        ajax: {
 			            "url": "<?php echo site_url('/example/dataTable') ?>",
 			            "type": "POST"
@@ -97,8 +97,8 @@
 			        	{ data: "p.lastname" },
 			        	{ data: "p.address" },
 			        	{ data: "p.area" },
-			        	{ data: "p.postcode" },
-			        	{ data: "p.age", className: "t_score" },
+			        	{ data: "p.postcode", className: "t_postcode" },
+			        	{ data: "p.age", className: "t_age" },
 			        	{ data: "p.id" },
 			        ],
 				    'columnDefs': [{
